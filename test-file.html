@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>    
+<head>
+    <title>JS</title>
+    <script type="text/javascript">
+        var x = "boy";
+        var y = 11;
+        
+        var z = "man";
+        var sen = z+x;
+        console.log(sen);
+        alert(sen);
+        //document.write(sen);
+    </script>
+</head>
+<body> 
+     <script type="text/javascript">
+         //creation phase of the execution context
+         function add(num1, num2) {
+             var sum = num1 + num2;
+             return sum;
+         }
+         
+         //Execution phase of th execution context
+         add(3,7);
+         
+         var button =  document.createElement('button');
+         button.textContext = "click me";
+         document.body.appendChild('button');
+    </script>    
+</body>
+</html>
